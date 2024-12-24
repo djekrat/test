@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winkelwagen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Winkelwagen</h1>
+    </header>
+    <main>
+        <h2>Product 1</h2>
+        <label for="hoeveelheid">Aantal:</label>
+        <input type="number" id="hoeveelheid" name="hoeveelheid" min="1" value="1">
+        <p>Prijs: €20</p>
+        
+        <button onclick="location.href='betaalpagina.html'">Ga naar Betalen</button>
+    </main>
+</body>
+</html>

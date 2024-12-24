@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onze Producten</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welkom bij Onze Webwinkel</h1>
+        <nav>
+            <a href="login.html">Inloggen</a> | 
+            <a href="register.html">Registreren</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Onze Producten</h2>
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>Prijs: €20</p>
+            <button onclick="location.href='winkelwagen.html?product=1'">Koop nu</button>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Prijs: €25</p>
+            <button onclick="location.href='winkelwagen.html?product=2'">Koop nu</button>
+        </div>
+        <div class="product">
+            <h3>Product 3</h3>
+            <p>Prijs: €30</p>
+            <button onclick="location.href='winkelwagen.html?product=3'">Koop nu</button>
+        </div>
+    </main>
+</body>
+</html>
