@@ -1,0 +1,13 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Verkrijg de gegevens van het formulier
+    $username = $_POST['username'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+
+    // Simuleer het verwerken van de bestelling
+    echo "<h1>Bestelling ontvangen!</h1>";
+    echo "<p>Bedankt voor je bestelling, $username. Je hebt betaald met Bitcoin!</p>";
+    echo "<p>We sturen je een bevestigingsmail naar $email.</p>";
+}
+?>
